@@ -344,7 +344,7 @@
     margin-left: 0px; 
     flex-direction: column;
     flex-grow: 1; 
-    padding: 40px;
+    padding: 30px;
     gap: 20px; 
     width: 80%;
   }  
@@ -395,7 +395,7 @@
     margin-left: 0px; 
     flex-direction: column;
     flex-grow: 1; 
-    padding: 40px;
+    padding: 30px;
     gap: 20px; 
     width: 80%;
   }  
@@ -446,10 +446,113 @@
     margin-left: 0px; 
     flex-direction: column;
     flex-grow: 1; 
-    padding: 40px;
+    padding: 30px;
     gap: 20px; 
     width: 80%;
   }  
+
+  .Filter{
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .product-card{
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .images{
+    width: auto;
+    max-width: 120px;
+  }
+  .Products{
+    gap: 15px;
+  }
+  .carousel-container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .product-image {
+    width: 50%;
+    height: 163px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+  .swiper-button-prev, .swiper-button-next{
+    display: none;
+
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2.0rem !important;
+  }
+
+  .small-title{
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0.6rem !important;
+  }
+
+  .smaller-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem !important;
+  }
+
+  .pagination button {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+   .product-grid, .product-grid.few-items, .product-grid.very-few-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: gap 0.3s ease; 
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .content {
+    display: flex;
+    margin-left: 0px; 
+    flex-direction: column;
+    flex-grow: 1; 
+    padding: 25px 15px 0px 15px;
+    gap: 0px; 
+    width: 80%;
+  }  
+
+  .Filter{
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .product-card{
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .images{
+    width: auto;
+    max-width: 120px;
+  }
+  .Products{
+    gap: 15px;
+  }
   .carousel-container {
     width: 100%;
     max-width: 500px;

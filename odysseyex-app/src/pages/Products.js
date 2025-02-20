@@ -244,7 +244,7 @@ const Products = () => {
         </button>
         {!isMobile && <span> Page {currentPage} of {totalPages} </span>}
         <button onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setTimeout(() => setCurrentPage((prev) => Math.min(prev + 1, totalPages)), 500); }}
-         disabled={currentPage === totalPages}   >
+         disabled={currentPage === totalPages || totalPages === 0}   >
           Next
         </button>
       </div>
