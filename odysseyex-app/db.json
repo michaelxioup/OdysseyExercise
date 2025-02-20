@@ -1,0 +1,144 @@
+{
+  "products": [
+    { "id": 1, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 2, "name": "Wireless Headphones", "price": 249, "availability": false, "image": "/assets/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" },
+    { "id": 3, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+
+    { "id": 4, "name": "Ultrabook Laptop", "price": 1299, "availability": true, "image": "/assets/daniel-korpai-HyTwtsk8XqA-unsplash.jpg" },
+    { "id": 5, "name": "Noise Cancelling Headphones", "price": 299, "availability": false, "image": "/assets/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" },
+    { "id": 6, "name": "Budget Smartphone", "price": 499, "availability": true, "image": "/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" },
+
+    { "id": 7, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 8, "name": "Gaming Headset", "price": 179, "availability": false, "image": "/assets/icons8-team-7LNatQYMzm4-unsplash.jpg" },
+    { "id": 9, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+
+    { "id": 10, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 11, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 12, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 13, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 14, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 15, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 16, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 17, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 18, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+
+    { "id": 19, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 20, "name": "Wireless Headphones", "price": 249, "availability": false, "image": "/assets/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" },
+    { "id": 21, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+
+    { "id": 22, "name": "Ultrabook Laptop", "price": 1299, "availability": true, "image": "/assets/daniel-korpai-HyTwtsk8XqA-unsplash.jpg" },
+    { "id": 23, "name": "Noise Cancelling Headphones", "price": 299, "availability": false, "image": "/assets/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" },
+    { "id": 24, "name": "Budget Smartphone", "price": 499, "availability": true, "image": "/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" },
+
+    { "id": 25, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 26, "name": "Gaming Headset", "price": 179, "availability": false, "image": "/assets/icons8-team-7LNatQYMzm4-unsplash.jpg" },
+    { "id": 27, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+
+    { "id": 28, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 29, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 30, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 31, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 32, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 33, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 34, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 35, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 36, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+    { "id": 37, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 38, "name": "Wireless Headphones", "price": 249, "availability": false, "image": "/assets/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" },
+    { "id": 39, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+
+    { "id": 40, "name": "Ultrabook Laptop", "price": 1299, "availability": true, "image": "/assets/daniel-korpai-HyTwtsk8XqA-unsplash.jpg" },
+    { "id": 41, "name": "Noise Cancelling Headphones", "price": 299, "availability": false, "image": "/assets/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" },
+    { "id": 42, "name": "Budget Smartphone", "price": 499, "availability": true, "image": "/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" },
+
+    { "id": 43, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 44, "name": "Gaming Headset", "price": 179, "availability": false, "image": "/assets/icons8-team-7LNatQYMzm4-unsplash.jpg" },
+    { "id": 45, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+
+    { "id": 46, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 47, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 48, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 49, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 50, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 51, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 52, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 53, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 54, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+    { "id": 55, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 56, "name": "Wireless Headphones", "price": 249, "availability": false, "image": "/assets/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" },
+    { "id": 57, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+
+    { "id": 58, "name": "Ultrabook Laptop", "price": 1299, "availability": true, "image": "/assets/daniel-korpai-HyTwtsk8XqA-unsplash.jpg" },
+    { "id": 59, "name": "Noise Cancelling Headphones", "price": 299, "availability": false, "image": "/assets/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" },
+    { "id": 60, "name": "Budget Smartphone", "price": 499, "availability": true, "image": "/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" },
+
+    { "id": 61, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 62, "name": "Gaming Headset", "price": 179, "availability": false, "image": "/assets/icons8-team-7LNatQYMzm4-unsplash.jpg" },
+    { "id": 63, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+
+    { "id": 64, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 65, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 66, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 67, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 68, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 69, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 70, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 71, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 72, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+    { "id": 73, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 74, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 75, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 76, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 77, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+    { "id": 78, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 79, "name": "Wireless Headphones", "price": 249, "availability": false, "image": "/assets/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" },
+    { "id": 80, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+
+    { "id": 81, "name": "Ultrabook Laptop", "price": 1299, "availability": true, "image": "/assets/daniel-korpai-HyTwtsk8XqA-unsplash.jpg" },
+    { "id": 82, "name": "Noise Cancelling Headphones", "price": 299, "availability": false, "image": "/assets/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" },
+    { "id": 83, "name": "Budget Smartphone", "price": 499, "availability": true, "image": "/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" },
+
+    { "id": 84, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 85, "name": "Gaming Headset", "price": 179, "availability": false, "image": "/assets/icons8-team-7LNatQYMzm4-unsplash.jpg" },
+    { "id": 86, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+
+    { "id": 87, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 88, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 89, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 90, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 91, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 92, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 93, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 94, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 95, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" },
+    { "id": 96, "name": "Convertible Laptop", "price": 899, "availability": true, "image": "/assets/erick-cerritos-i5UV2HpITYA-unsplash.jpg" },
+    { "id": 97, "name": "Studio Headphones", "price": 349, "availability": false, "image": "/assets/c-d-x-PDX_a_82obo-unsplash.jpg" },
+    { "id": 98, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" },
+
+    { "id": 99, "name": "Business Laptop", "price": 1199, "availability": true, "image": "/assets/nubelson-fernandes-MuP--rlVZaA-unsplash.jpg" },
+    { "id": 100, "name": "Earbuds Pro", "price": 129, "availability": false, "image": "/assets/sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg" },
+    { "id": 101, "name": "Compact Smartphone", "price": 749, "availability": true, "image": "/assets/d-c-tr-nh-NEv65ZXjuLg-unsplash.jpg" },
+
+    { "id": 102, "name": "Performance Laptop", "price": 1799, "availability": true, "image": "/assets/michail-sapiton-alCEnNmzhPE-unsplash.jpg" },
+    { "id": 103, "name": "Over-Ear Headphones", "price": 199, "availability": false, "image": "/assets/kiran-ck-LSNJ-pltdu8-unsplash.jpg" },
+    { "id": 104, "name": "Premium Smartphone", "price": 1199, "availability": true, "image": "/assets/shiwa-id-F_cfF1uX7qY-unsplash.jpg" }
+  ],
+  "popularProducts" : [
+    { "id": 1, "name": "Gaming Laptop", "price": 1099, "availability": true, "image": "/assets/james-mckinven-tpuAo8gVs58-unsplash.jpg" },
+    { "id": 3, "name": "Flagship Smartphone", "price": 899, "availability": true, "image": "/assets/shiwa-id-Uae7ouMw91A-unsplash.jpg" },
+    { "id": 7, "name": "Workstation Laptop", "price": 1599, "availability": true, "image": "/assets/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg" },
+    { "id": 9, "name": "Mid-range Smartphone", "price": 699, "availability": true, "image": "/assets/kenny-eliason-GCQaYDCQwgc-unsplash.jpg" },
+    { "id": 12, "name": "Photography Smartphone", "price": 999, "availability": true, "image": "/assets/martin-engel-44zXCbDd2WQ-unsplash.jpg" }
+]
+}
