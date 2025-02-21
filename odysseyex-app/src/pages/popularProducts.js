@@ -16,6 +16,7 @@ const ProductCarousel = () => {
         fetchProducts();
       }, []); 
 
+      // Swiper has an issue with Resizing dev tool of React as such I set up this Resizing function to update the slides per view when changing resolution.
       useEffect(() => {
         const handleResize = () => {
           if (swiperRef.current) {
@@ -36,6 +37,7 @@ const ProductCarousel = () => {
   return (
     <div className="carousel-container">
       <h2>🔥 Popular Products</h2>
+      {/* Used Swiper Since i am familiar with it to design a popular product carousel */}
       <Swiper 
       ref={swiperRef}
      modules={[Navigation, Pagination, Autoplay]}

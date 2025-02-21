@@ -23,13 +23,13 @@ const Products = () => {
 
   useEffect(() => {
     if(location.state?.selectedProduct) {
-      setSearchQuery(location.state.selectedProduct)
+      setSearchQuery(location.state.selectedProduct) // Sets SearchQuery based on location state from the welcome page.
     } 
   },[location.state])
 
   useEffect(() => {
     if (searchQuery === "") {
-      window.history.replaceState({}, document.title); // Clears location state
+      window.history.replaceState({}, document.title); // Clears location state 
     }
   }, [searchQuery]);
 
@@ -114,19 +114,21 @@ const Products = () => {
     );
   };
 
-
+  // this is for the animation used a library i am familiar with to handle the animation and this is a standard variant for a fading effect
   const productGridVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
   };
 
   // **Pagination Logic**
-
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredProducts.slice(indexOfFirstItem, indexOfLastItem);
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
   const itemCount = filteredProducts.length;
+
+  // Smaller gridclass for the amount of items to be shown i thought to do it this way due to mobile view having the 
+  // filters i wanted to keep the user close to the filters rather than incorporate infinite scrolling in this scenario.
   const gridClass = itemCount <= 5 ? 'very-few-items' : itemCount <= 12 ? 'few-items' : '';
   const isMobile = useMediaQuery('(max-width: 600px)');
 
@@ -135,7 +137,7 @@ const Products = () => {
     <h1>Products</h1>
     <div className="Products">
  
-
+    {/*Here is used UI material as i am familiar with it and their components were fitting to the exercise. */}
       <Box className="Filter">
       {/* 🔍 Search Bar */}
       <TextField
@@ -231,7 +233,7 @@ const Products = () => {
   </AnimatePresence>
 </motion.div>
 
-      {/* ⏭️ Pagination Controls */}
+      {/* ⏭️ Pagination Controls with smoothing animation effect to the top of the page when changing pages. */}
 
     </div>
     <div className="pagination">
